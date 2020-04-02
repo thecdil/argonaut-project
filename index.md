@@ -3,21 +3,16 @@ title: Home
 layout: default
 ---
 
-# Bootstrap Workshop Template!
+# Argonaut Metadata Project
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+{% include figure.html img="https://www.lib.uidaho.edu/digital/argonaut/images/argonaut_header.jpg" alt="The Argonaut (masthead)" %}
 
-A minimal Jekyll theme with Bootstrap for creating workshop websites.
+The [Argonaut Digital Collection](https://www.lib.uidaho.edu/digital/argonaut/) contains over 6,000 issues U of I's student newspaper since 1898.
+A subject index was created by dedicated library staff over time to help people find interesting content in the collection.
+However, more than 1,500 issues currently have no metadata.
+*How sad!*
 
-*Add your workshop abstract here!*
-
-Write a workshop abstract here.
-
-Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
-Host it for free on GitHub with gh-pages, and share!
-Fun!
-
-*See also:* [workshop-template](https://evanwill.github.io/workshop-template/), original minimal version.
+This Spring 2020 Project seeks to enhance the metadata to make the Argonaut archives more discoverable for All!
 
 {% include toc.html %}
 
