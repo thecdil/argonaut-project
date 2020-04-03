@@ -1,5 +1,5 @@
 ---
-title: Example
+title: Examples
 nav: true
 ---
 
@@ -22,13 +22,13 @@ Special titles are common for Jazz Fest, sports tournaments, Best of Moscow, and
 {:.table .table-bordered}
 | issue | headlines |
 | --- | --- |
-| ? | Replies list ice rink, pool as top requests; Tri Delta Selected As Dream Girl; Theta to compete in mag. contest; Idaho band to present a concert; Companies make awards to students; Board Considers funds for coed; Registrar reports fewer drop-outs; Phi Mu Alpha to host provice Sinfonia meet; G. Thomas takes study assignment at Northwestern; Army to nab 3 students next month; "Engineer" starts 30th year in may; Researchers confer here this week; Dates set for one-acts; University doctors attend Boise meet; Professor serves on Park Board; KUOI plans, changes told (p2); Gerald Leigh attends cadet AROTC meet (p2); Mystery sickness limited to already stricken area (p5) |
 | [arg-1993-01-19](https://digital.lib.uidaho.edu/utils/getfile/collection/argonaut/id/10342/filename/arg-1993-01-19.pdf) | UI football player arrest in melee at night club Xenon; Problems with purging plagues some students; University cuts back due to cut in budget; Day in the life of law student gives insight (p3); Vandals get defensive in league sweep of UM and MSU (p7); Idaho squad honored (p9); Native Americans perform historic dances (p10); Jazz greats toot trumpets at Feb. festival (p10) |
+| [arg-1992-11-13](https://digital.lib.uidaho.edu/utils/getfile/collection/argonaut/id/9180/filename/arg-1992-11-13.pdf) | The race for ASUI Senate positions is off and running: Richard Rock, he's the only person for the job; RHA learn to handle rocky situations in Colorado; Attorney to discuss landmark abortion case; Student victim of knapsack nabbing (p2); Sleeping in a box gives students insight to homeless plight (p3); Vandals put it on the line: UI faces MSU in crunchtime for title (p10); UI professor examines the godfather of cyberpunk (p14); Time has stood still for the barber shop on Main Street (p17) |
 
 ## Subject
 
 {:.table .table-bordered}
-| objectid | subject |
+| issue | subject |
 | --- | --- |
 | [arg-1992-09-25](https://digital.lib.uidaho.edu/utils/getfile/collection/argonaut/id/9167/filename/arg-1992-09-25.pdf) | Bus system; Alpha Xi Delta; Enrollment; Marching band; Women's volleyball; Gootblatt, Ellen; Puckett, Jessica |
 | [arg-1993-01-12](https://digital.lib.uidaho.edu/utils/getfile/collection/argonaut/id/9186/filename/arg-1993-01-12.pdf) | Wichman, Holly; Rock, J. Richard; Lightfoot, Orlando; ASUI-Productions; Dozier-Jarvis-Jensen quartet; Talboy, Thomas; Lady Vandals; Lady Vandals; 'Natural Selections'; Ricks, Marvin; Non-Traditional student programs; Basketball; Attorney general position; Baseball; Basketball; Baseball |
