@@ -68,7 +68,7 @@ Using the same terms will help users find related content across issues.
 
 These subjects are U of I specific and do not use a controlled vocabulary.
 They should help users discover unique content and topics such as news related to U of I specific organizations, people, and events.
-Subjects should not try to cover everything in the issue, but represent a curated list of the most important and prevalent topics.
+The subjects should not try to cover everything in the issue, but represent a curated list of the most important and prevalent topics.
 
 {% endcapture %}
 {% include card.md text=subjects header="3. Assign Subjects" %}
@@ -78,4 +78,4 @@ Subjects should not try to cover everything in the issue, but represent a curate
 - Check the [Examples]({{ '/content/4-examples.html' | relative_url }}) page for, well, examples.
 - Open the PDF in a new window so you can look at the Sheet and issue at the same time.
 - Drag Sheet's text entry box down to make it bigger.
-- Create your headlines in a notepad first, then paste into the correct cell with `Ctrl+V`.
+- Create your headlines/subjects in a notepad or Google Doc first, then paste the text into the correct cell with `Ctrl+V`.
