@@ -3,70 +3,42 @@ title: Metadata
 nav: true
 ---
 
-# Argonaut Metadata Workflow
+# Create New Metadata 
 
-Each contributor will be given a Google drive folder to work in. 
-Inside the folder will be a Google Sheet with the metadata describing the set Argonaut PDF issues you will be working on.
+To enhance Argonaut metadata, there is three basic steps that will be completed for each row in your Sheet:
 
+1. Review Metadata
+2. Record Headlines
+3. Assign Subjects
 
-## objectid
+Each step is described below. 
+Please don't hesitate to get in touch if you have any questions or encounter issues!
 
-The ID for the individual issue, following format:
-`arg-yyyy-mm-dd`.
-Filling this field automated.
+{% capture review %}
+Click the link in `cdm_pdf_link` to open up the issue's PDF for viewing.
 
-## cdmid
+On the PDF carefully check the issue information to ensure it actually matches the record's information:
 
-The CONTENTdm ID.
-Filling this field automated.
+- Check the `date` to ensure the issue is correct. If there is an mismatch, please let us know!
+- Check the `title`. For *almost all* records the title will stay as is. However, if the issue has a special title highlighted on the front page, please add it to the end of the automated title after a dash. For example, [arg-1993-04-01](https://digital.lib.uidaho.edu/utils/getfile/collection/argonaut/id/9203/filename/arg-1993-04-01.pdf) is a special April Fools edition, the title field should be "April 1st, 1993 - Cosmonaut: Fools Issue".
+- If the quality of the PDF is particularly bad, please let us know.
 
-## title
+{% endcapture %}
+{% include card.md text=review header="1. Review Metadata" %}
 
-Title is generally just the full date of the issue written out. 
-Filling this field automated.
+{% capture headlines %}
+To create the `headlines` field, scan/skim the issue starting with the front page: 
 
-Please check to ensure the title and date match the actual PDF issue you are looking at, and note any disagreement.
-If you find metadata that doesn't match up with the PDF, please let us know!
+- Type/copy all headlines from the front page into the spreadsheet, separating each using a semi-colon, `;`. 
+- Browse through the rest of the issue and copy any additional major headlines, separating each using a semi-colon, `;`. After each additional headline add the PDF page number in parenthesis, like `(p2)`.
 
-If the issue has a special title highlighted on the front page, please add the special title to the end of the automated title after a dash.
-
-For example, arg-1993-04-01 is a special April Fools edition, the title field should be "April 1st, 1993 - Cosmonaut: Fools Issue".
-
-## date
-
-Full date of the issue in ISO format, yyyy-mm-dd.
-Include leading zeros for single digit numbers.
-Filling this field automated.
-
-## year
-
-Four digit year.
-Filling this field automated.
-
-## index_description 
-
-This is a pre-existing field drawn from an old Argonaut index created for microfilm collection. 
-It was formatted a as a list of notable subjects along with a page number and column. 
-Do not add to this column.
-
-## headlines
-
-A list of headlines drawn from the issues, separated by a semi-colon, `;`.
-
-To create the headlines field, view the issue PDF. 
-Start looking over the front page. 
-Copy all headlines from the front page into the spreadsheet, separating each using a semi-colon. 
-Scan through the rest of the issue and copy any additional major headlines.
-After each additional headline add the PDF page number in parenthesis, like (p2).
 You do not need to copy all headlines in the issue. 
 Instead focus on finding headlines that relate to university events and happening on campus. 
-Imagine a future user wanting to discover interesting university history.
+Imagine a future user wanting to discover interesting history relevant to the university and campus life.
 Leave out headlines that are regular column titles, such as "NOTICE" or "In brief". 
 
-Example:
-"Replies list ice rink, pool as top requests; Tri Delta Selected As Dream Girl; Theta to compete in mag. contest; Idaho band to present a concert; Companies make awards to students; Board Considers funds for coed; Registrar reports fewer drop-outs; Phi Mu Alpha to host provice Sinfonia meet; G. Thomas takes study assignment at Northwestern; Army to nab 3 students next month; "Engineer" starts 30th year in may; Researchers confer here this week; Dates set for one-acts; University doctors attend Boise meet; Professor serves on Park Board; KUOI plans, changes told (p2); Gerald Leigh attends cadet AROTC meet (p2); Mystery sickness limited to already stricken area (p5)" 
-
-Keep in mind the basic format of the issues changes over time. 
+{% capture notes %}
+*Keep in mind* the basic format of the issues changes over time. 
 
 Argonauts from early 1900's have a dense front page with many columns and many individual headlines. 
 These headline will often include a larger title and a smaller subtitle. 
@@ -76,20 +48,34 @@ For example, "Home economics group will hear of eastern meet: University instruc
 Sometime past 1950's the format shifts to one more familiar today, with only a couple top stories appearing on the front page. 
 "Headline" fields for these issues will include more items from additional pages. 
 Often the front page will include a "contents" box that will be a good clue for finding important stories to include.
+{% endcapture %}
+{% include alert.md text=notes color="info" %}
 
-## subject
+{% endcapture %}
+{% include card.md text=headlines header="2. Record Headlines" %}
 
-A list of notable subjects contained within the issue, separated by a semi-colon, `;`.
+{% capture subjects %}
+To create the `subject` field, assign "subject terms" describing the notable topics covered by the issue. 
+Separate each subject with a semi-colon, `;`.
+Each issue will have a handful or more relevant terms.
+
+After scanning through an issue, you should have a good sense of appropriate subjects.
+Think about topics that might not be directly captured in the `headlines` text, but seem important to communicate what a major story is about.
+
+Use the [subjects table]({{ '/content/3-subjects.html' | relative_url }}) to explore the terms used in the existing Argonaut metadata.
+This will give you an idea of the types of terms that are applied.
+Using the same terms will help users find related content across issues.
 
 These subjects are U of I specific and do not use a controlled vocabulary.
 They should help users discover unique content and topics such as news related to U of I specific organizations, people, and events.
 Subjects should not try to cover everything in the issue, but represent a curated list of the most important and prevalent topics.
 
-After scanning through an issue, you should have a good sense of appropriate subjects.
-Think about topics which are not captured directly in the "headlines" text, but seem important to communicate what a major story is about.
+{% endcapture %}
+{% include card.md text=subjects header="3. Assign Subjects" %}
 
-Subjects used in existing records can be seen in work/argo_subjects_old.csv
+## Tips
 
-## cdm_pdf_link
-
-a link to the PDF on CONTENTdm
+- Check the [Examples]({{ '/content/4-examples.html' | relative_url }}) page for, well, examples.
+- Open the PDF in a new window so you can look at the Sheet and issue at the same time.
+- Drag Sheet's text entry box down to make it bigger.
+- Create your headlines in a notepad first, then paste into the correct cell with `Ctrl+V`.

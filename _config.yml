@@ -31,7 +31,7 @@ url: https://thecdil.github.io
 baseurl: /argonaut-project
 
 # add search box to footer?
-search: true
+#search: true
 
 # add google analytics if desired (optional)
 # if blank, it will be ignored
