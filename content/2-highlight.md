@@ -71,5 +71,5 @@ For example:
 ## Screenshot Tools 
 
 - Windows: "Snipping Tool", use the "Rectangular Snip" option.
-- Mac: 
+- Mac: use the keyboard shortcut `Command` + `Shift` + `4`. A crosshair cursor will appear. Click and drag the cursor to capture your selection. When you're happy with your selection release your mouse. The screenshot will be saved to your desktop.
 - Linux: "Screenshot", use "Select area to grab" option.
