@@ -3,13 +3,13 @@ title: Highlights
 nav: true
 ---
 
-# Argonaut highlights
+# Argonaut Highlights
 
 The [front page of the Argonaut digital collection](https://www.lib.uidaho.edu/digital/argonaut/index.html) features a randomly generated "front page" made of snippets from Argo issues through the years.
 This provides an engaging entry point to scan the weird and interesting contents of Argonaut and invite people to explore.
 Users can click on a highlight to visit the related Argonaut issue.
 
-## Choosing highlights
+## Choosing Highlights
 
 While working on metadata for Argonaut issues you will be browsing the contents of each PDF.
 If you find a story, headline, ad, or image that is particularly interesting, you can create a highlight to be added to the front page feature.
@@ -22,7 +22,7 @@ Think about snippets that are:
 
 Every issue does *not* need a highlight, but we aim to have a handful of highlights from each year over all. 
 
-## Create a highlight
+## Create a Highlight
 
 Once you find an interesting highlight, use a [screenshot tool](#screenshot-tools) to grab an image directly from the PDF.
 
@@ -50,6 +50,9 @@ Where:
     - `xl` is 4 columns (typically a headline that crosses the full page width)
 - `title` is a descriptive word to make your filename unique. Do not use spaces or weird characters. e.g. `frogs`, `play`, `cigs`. 
 
+The file extension will be either `.png` or `.jpg` as created by your screenshot program (most default to PNG).
+Don't change the extension.
+
 For example:
 
 - `arg-1913-10-16_md_football.png` might be a medium photograph of the football team from the front page of [arg-1913-10-16](https://digital.lib.uidaho.edu/utils/getfile/collection/argonaut/id/1071/filename/arg-1913-10-16.pdf).
@@ -73,3 +76,8 @@ For example:
 - Windows: "Snipping Tool", use the "Rectangular Snip" option.
 - Mac: use the keyboard shortcut `Command` + `Shift` + `4`. A crosshair cursor will appear. Click and drag the cursor to capture your selection. When you're happy with your selection release your mouse. The screenshot will be saved to your desktop.
 - Linux: "Screenshot", use "Select area to grab" option.
+
+## File Renaming Tips
+
+- Your operating system might hide file extensions by default. You can change the settings by looking in the view menu for options in your file explorer.
+- You can rename files on Google Drive: right click on the filename and select "rename".
