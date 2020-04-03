@@ -24,7 +24,7 @@ Every issue does *not* need a highlight, but we aim to have a handful of highlig
 
 ## Create a highlight
 
-Once you find an interesting highlight, use a screenshot tool to grab an image directly from the PDF.
+Once you find an interesting highlight, use a [screenshot tool](#screenshot-tools) to grab an image directly from the PDF.
 
 {% include card.md text="
 1. Zoom in on the area of the PDF (*if necessary*).
@@ -43,19 +43,32 @@ Every highlight image filename will follow the pattern:
 Where:
 
 - `objectid` is the ID of the PDF you captured it from (this follows the pattern `arg-yyyy-mm-dd` and can be found in the link to the PDF or PDF filename)
-- `size` use sm, md, lg, xl to indicate the number of columns the highlight should take up in the web page display (horizontal width). 
+- `size` use sm, md, lg, or xl to indicate the number of columns the highlight should take up in the web page display (horizontal width). 
     - `sm` is 1 column (~25% of the news page)
     - `md` is 2 columns (a medium image, two column article, or ad, etc)
-    - `lg` is 3 columns (a large image or add, etc)
+    - `lg` is 3 columns (a large image or ad, etc)
     - `xl` is 4 columns (typically a headline that crosses the full page width)
-- `title` is a short single word to make your filename unique. Do not use spaces or weird characters. e.g. `frogs`, `play`, `cigs`. 
+- `title` is a descriptive word to make your filename unique. Do not use spaces or weird characters. e.g. `frogs`, `play`, `cigs`. 
 
-Examples:
+For example:
 
-- "arg-1913-10-16_md_football.png" might be a picture of the football team from the front page of https://digital.lib.uidaho.edu/utils/getfile/collection/argonaut/id/1071/filename/arg-1913-10-16.pdf
-- "arg-1985-10-11_sm_jacket.png" might be an ad for "Miami Vice jacket" found on page 11 of https://digital.lib.uidaho.edu/utils/getfile/collection/argonaut/id/9411/filename/ARG-1985-10-11.pdf
+- `arg-1913-10-16_md_football.png` might be a medium photograph of the football team from the front page of [arg-1913-10-16](https://digital.lib.uidaho.edu/utils/getfile/collection/argonaut/id/1071/filename/arg-1913-10-16.pdf).
+- `arg-1985-10-11_sm_jacket.png` might be a small ad for the "Miami Vice jacket" found on page 11 of [arg-1985-10-11](https://digital.lib.uidaho.edu/utils/getfile/collection/argonaut/id/9411/filename/arg-1985-10-11.pdf)
 
-## Tools 
+<div class="row my-3 h-100">
+<div class="col-md-6 p-0 border">
+<img src="{{ '/images/arg-1913-10-16_md_football.png' | relative_url }}" class="w-100" alt="football team photo">
+<br>
+<small>md = 2 column width, ~%50</small>
+</div>
+<div class="col-md-3 p-0 border">
+<img src="{{ '/images/arg-1985-10-11_sm_jacket.png' | relative_url }}" class="w-100" alt="miami vice jacket">
+<br>
+<small>sm = 1 column width, ~%25</small>
+</div>
+</div>
+
+## Screenshot Tools 
 
 - Windows: "Snipping Tool", use the "Rectangular Snip" option.
 - Mac: 
